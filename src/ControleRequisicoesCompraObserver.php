@@ -9,6 +9,6 @@ class ControleRequisicoesCompraObserver implements Observer{
     }
 
     public function adicionaListaRequisicaoCompra(string $codigoProduto){
-        echo 'Produto adicionado a lista de requisições de compra: ';
+        echo 'Produto adicionado a lista de requisições de compra ';
     }
 }

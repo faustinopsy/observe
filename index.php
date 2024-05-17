@@ -11,6 +11,6 @@ $controleRequisicaoCompraObserver = new ControleRequisicoesCompraObserver();
 $emailObserver = new EmailObserver();
 
 $controleEstoqueSubject->adicionarObserver($controleRequisicaoCompraObserver);
-$controleEstoqueSubject->adicionarObserver($emailObserver);
+//$controleEstoqueSubject->adicionarObserver($emailObserver);
 
-$controleEstoqueSubject->notificarObservers(123);
+$controleEstoqueSubject->notificarObservers(13);

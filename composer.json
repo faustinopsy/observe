@@ -1,0 +1,15 @@
+{
+    "name": "estoque/app",
+    "autoload": {
+        "psr-4": {
+            "Estoque\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "faustinopsy",
+            "email": "rodrigohipnose@gmail.com"
+        }
+    ],
+    "require": {}
+}
